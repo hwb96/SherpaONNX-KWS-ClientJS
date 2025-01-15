@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+}
+
+#status {
+    height: 400px; /* 设置固定高度 */
+    overflow-y: auto; /* 启用垂直滚动 */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace; /* 等宽字体，使显示更整齐 */
+    white-space: pre-wrap; /* 保留空白符和换行符 */
+}
+#status strong {
+    color: #007bff;
+    background-color: #f8f9fa;
+    padding: 2px 5px;
+    border-radius: 3px;
+}

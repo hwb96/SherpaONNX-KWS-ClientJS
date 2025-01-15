@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KWS Client</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<h1>Keyword Spotting Client</h1>
+<button id="connectButton">Connect and Start Listening</button>
+<div id="status"></div>
+<!-- 预加载音频文件 -->
+<audio id="responseAudio" preload="auto">
+    <source src="./wake_response.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+<script type="module" src="./kws.js"></script>
+</body>
+</html>

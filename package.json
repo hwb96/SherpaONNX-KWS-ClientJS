@@ -1,0 +1,28 @@
+{
+  "name": "kws-client",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "parcel serve index.html --no-cache --port 1234 --open",
+    "dev": "parcel --no-cache index.html",
+    "build": "parcel build index.html"
+  },
+  "staticFiles": {
+    "staticPath": {
+      "staticPath": [
+        "."
+      ],
+      "staticOutDir": "assets"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}

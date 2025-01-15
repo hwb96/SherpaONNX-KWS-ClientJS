@@ -1,0 +1,94 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+
+# 编译和构建输出
+bin/
+build/
+target/
+out/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.class
+*.pyc
+*.pyo
+
+# 日志文件
+*.log
+*.out
+
+# 依赖管理器的缓存
+node_modules/
+packages/
+.venv/
+env/
+venv/
+__pycache__/
+*.egg-info
+
+# 临时文件和备份文件
+*.tmp
+*~
+*.bak
+*.orig
+*.swp
+
+# 密钥和敏感信息
+.env
+config.json
+*.key
+*.pem
+*.pfx
+
+# 其他常见忽略
+.DS_Store
+*.DS_Store
+ehthumbs.db
+Icon\r
+*.tmp
+*.bak
+*.swp
+*.~*
+.cache
+.bundle
+/tmp
+/private
+*.sassc
+.sass-cache/
+.rvmrc
+._*
+.npmrc
+.yarn-integrity
+.pnp
+.pnp.js
+
+# 如果你使用特定的构建工具或框架，可能还需要添加相应的忽略规则
+# 例如：
+# 如果使用 Maven (Java):
+# *.war
+# *.ear
+
+# 如果使用 Gradle (Java):
+# .gradle/
+# build/
+
+# 如果使用 Angular:
+# dist/
+
+# 如果使用 React:
+# build/
